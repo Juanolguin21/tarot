@@ -8,6 +8,23 @@ body {
     background-image: url(fondo.jpg);
 }
 
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 80px 200px;
+    background-color: antiquewhite;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 100px 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
 .hero_section{
     display: flex;
     align-items: center;
@@ -30,6 +47,9 @@ body {
     justify-content: space-between;
     text-align: center;
     flex-direction: column;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     
 }
 
@@ -50,6 +70,7 @@ body {
     font-size: 20px;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 .hero_texto p b{
@@ -58,6 +79,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    text-align: center;
 }
 .navbar {
     height: 80px;
@@ -135,3 +157,14 @@ body {
     border-bottom: 1px solid white;
 }
 
+footer { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h1 { 
+    font-family:'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 100%;
+    text-shadow:7px 10px 7px rgb(1, 1, 1); 
+}
