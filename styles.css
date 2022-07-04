@@ -96,6 +96,7 @@ nav {
     align-items: center;
     box-shadow: 7px 13px 37px #000;
     flex-direction: row;
+   
 }
 
 .navbar .logo {
@@ -189,4 +190,10 @@ footer h1 {
     color: aliceblue;
     font-size: 100%;
     text-shadow:7px 10px 7px rgb(1, 1, 1); 
+}
+
+@media (max-width:520px) {
+    .navbar .logo h1 {
+        display: none;
+    }
 }
