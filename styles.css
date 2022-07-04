@@ -196,4 +196,12 @@ footer h1 {
     .navbar .logo h1 {
         display: none;
     }
+
+    .navbar .menu ul li a {
+        font-size: 70%;
+    }
+
+    .hero_texto p {
+        font-size: 70%;
+    }
 }
