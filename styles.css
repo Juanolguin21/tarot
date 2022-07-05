@@ -193,10 +193,14 @@ footer h1 {
 }
 
 @media (max-width:520px) {
-    body {
-        padding: 1px 1px;
+    .hero_section {
+        margin: 0%;
+        padding: 0%;
     }
-    
+    .reseña {
+        margin: 0%;
+        padding-top: 10px;
+    }
     .navbar .logo img {
 
         min-width: 35px;
