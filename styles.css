@@ -59,6 +59,50 @@ nav {
     
 }
 
+.images {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.images ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  
+}
+.images h1 {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow:  4px 8px 7px #000;
+    padding: 10px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.images ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+
+.images ul li a img {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 105px;
+    max-width: 185px;
+    max-height: 105px;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 100px 100px;
+
+
+}
 .hero_more  {
     padding-top: 40px;
     display: flex;
@@ -71,16 +115,17 @@ nav {
 
 .hero_texto p {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: baseline;
+    justify-content: flex-start;
     font-size: 20px;
-    flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    align-content: stretch;
+    flex-wrap: wrap;
 }
 
 .hero_texto p b {
-    padding: 20px;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -174,11 +219,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    min-width: 65px;
-    max-width: 100px;
-    max-height: 60px;
+    min-width: 85px;
+    max-width: 155px;
+    max-height: 85px;
     box-shadow: 7px 13px 37px #000;
-    border-radius: 100px 100px;
+    border-radius: 20%;
 }
 
 footer { 
@@ -202,6 +247,12 @@ footer h1 {
         margin: 1%;
         padding-top: 10px;
     }
+    .images ul {
+        flex-direction:column ;
+    }
+    .images h1 {
+        text-align: center ; 
+    }
     .navbar .logo img {
 
         min-width: 35px;
@@ -219,6 +270,10 @@ footer h1 {
 
     .hero_texto p {
         font-size: 70%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
     }
     .hero_more a {
         font-size: 70%;
