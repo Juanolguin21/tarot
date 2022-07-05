@@ -193,6 +193,14 @@ footer h1 {
 }
 
 @media (max-width:520px) {
+    
+    .navbar .logo img {
+
+        min-width: 35px;
+        max-width: 70px;
+        max-height: 35px;
+    
+    }
     .navbar .logo h1 {
         display: none;
     }
@@ -202,6 +210,9 @@ footer h1 {
     }
 
     .hero_texto p {
+        font-size: 70%;
+    }
+    .hero_more a {
         font-size: 70%;
     }
     footer h1 {
