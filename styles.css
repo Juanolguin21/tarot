@@ -249,7 +249,7 @@ footer h1 {
     }
    
     .images {
-        padding: 2px;
+        padding: 10px 1px;
     }
     .images ul{
         align-items:center;
@@ -278,16 +278,19 @@ footer h1 {
 
     .hero_texto p {
         font-size: 70%;
-        flex-direction: column;
+        flex-direction:column ;
         align-items: center;
         justify-content: space-between;
         text-align: center;
+        padding: 10px;
     }
     .hero_more a {
         font-size: 70%;
+        padding: 10px;
     }
     footer h1 {
         font-size: 70%;
+        padding: 10px;
 
     }
 }
