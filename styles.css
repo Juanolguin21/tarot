@@ -247,11 +247,16 @@ footer h1 {
         margin: 1%;
         padding-top: 10px;
     }
-    .images ul {
-        flex-direction:column ;
+   
+    
+    .images ul{
+        align-items:;
+        justify-content: space-between;
+        display: flex;
+
     }
     .images h1 {
-        text-align: center ; 
+        font-size: 170%;
     }
     .navbar .logo img {
 
