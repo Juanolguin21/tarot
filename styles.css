@@ -193,6 +193,9 @@ footer h1 {
 }
 
 @media (max-width:520px) {
+    body {
+        padding: 1px 1px;
+    }
     
     .navbar .logo img {
 
