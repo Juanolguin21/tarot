@@ -248,9 +248,11 @@ footer h1 {
         padding-top: 10px;
     }
    
-    
+    .images {
+        padding: 2px;
+    }
     .images ul{
-        align-items:;
+        align-items:center;
         justify-content: space-between;
         display: flex;
 
@@ -258,6 +260,7 @@ footer h1 {
     .images h1 {
         font-size: 170%;
     }
+  
     .navbar .logo img {
 
         min-width: 35px;
