@@ -79,13 +79,14 @@ nav {
     text-align: center;
 }
 
-.hero_texto p b{
+.hero_texto p b {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 30px;
     text-align: center;
+    
 }
 .navbar {
     height: 80px;
@@ -194,11 +195,11 @@ footer h1 {
 
 @media (max-width:520px) {
     .hero_section {
-        margin: 0%;
+        margin: 1%;
         padding: 0%;
     }
     .reseña {
-        margin: 0%;
+        margin: 1%;
         padding-top: 10px;
     }
     .navbar .logo img {
