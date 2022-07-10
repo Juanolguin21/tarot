@@ -8,6 +8,11 @@ body {
     background-image: url(fondo.jpg);
 }
 
+header {
+    position:fixed;
+    width: 100%;
+    top: 0%;
+}
 
 article{
     display: flex;
@@ -28,6 +33,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 
@@ -60,7 +66,8 @@ nav {
 }
 
 .images {
-    padding: 30px;
+    padding-top: 100px;
+    padding-left: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -142,7 +149,8 @@ nav {
     align-items: center;
     box-shadow: 7px 13px 37px #000;
     flex-direction: row;
-   
+  
+    
 }
 
 .navbar .logo {
