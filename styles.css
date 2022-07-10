@@ -257,7 +257,8 @@ footer h1 {
     }
    
     .images {
-        padding: 10px 1px;
+        padding-top: 100px;
+        padding-left: 1px;
         justify-content: flex-end;
     }
     .images ul{
